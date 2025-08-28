@@ -6,6 +6,7 @@ const World = dynamic(() => import("./Globe").then((m) => m.World), {
   ssr: false,
 });
 
+
 const GridGlobe = () => {
   const globeConfig = {
     pointSize: 4,
